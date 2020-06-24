@@ -88,7 +88,7 @@ public class GameMaster : MonoBehaviour {
             if (n > 1 && st[n-2] == b) {        
                 unclick(st[n-1]);
                 n--;
-                Debug.Log("Giam " + n);
+                Debug.Log("Khong Hieu Lam " + n);
                 return;
             }
 
